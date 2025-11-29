@@ -13,4 +13,8 @@ export default {
     },
   },
 };
-export const Default = {};
+export const Default = {
+  args: {
+    color: "green",
+  },
+};

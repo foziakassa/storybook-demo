@@ -3,7 +3,7 @@ import Card from "./Card2"; // Adjust path
 import "../index.css";
 
 export default {
-  title: "Example/Card2",
+  title: "Example/Card",
   component: Card,
   tags: ["autodocs"], // Auto-generates docs
   argTypes: {
@@ -15,7 +15,7 @@ export default {
 };
 export const Default = {
   args: {
-    imageSrc: "/images/sample-image.jpg", // Provide a valid image path
+    imageSrc: "https://iili.io/33etOiX.png", // Provide a valid image path
     title: "Sample Card Title nnn",
     description: "This is a sample description for the card component.",
     buttonText: "Learn More",
@@ -29,7 +29,7 @@ export const BlueCard = {
     title: "Blue Themed Card",
     description: "This card uses a blue theme for its button.",
     buttonText: "Discover",
-    color: "blue",
-    textcolor: "yelloe",
+    color: "red",
+    textcolor: "#1f2376",
   },
 };
