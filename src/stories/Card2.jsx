@@ -17,11 +17,12 @@ const Card = ({
         return "text-blue-600";
       case "red":
         return "text-red-600";
+      case "white":
+        return "text-white";
       default:
         return ""; // Use inline style for hex/custom colors
     }
   };
-
   return (
     <div>
       <img className="mb-7 rounded-xl" src={imageSrc} alt={title} />
