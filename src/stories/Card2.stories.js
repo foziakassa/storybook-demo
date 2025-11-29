@@ -25,11 +25,13 @@ export const Default = {
 };
 export const BlueCard = {
   args: {
-    imageSrc: "https://iili.io/33etOiX.png", // Provide a different image path
-    title: "Blue Themed Card",
+    // Provide a different image path
+    imageSrc: "https://iili.io/33etOiX.png",
+    title:"Blue Themed Card",
     description: "This card uses a blue theme for its button.",
     buttonText: "Discover",
     color: "red",
-    textcolor: "#1f2376",
+    textcolor: "#ad1c20",
+    variant: "classic"
   },
 };

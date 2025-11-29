@@ -15,6 +15,6 @@ export default {
 };
 export const Default = {
   args: {
-    color: "green",
+    color: "red",
   },
 };

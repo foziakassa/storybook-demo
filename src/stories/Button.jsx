@@ -36,3 +36,5 @@ Button.propTypes = {
   label: PropTypes.string.isRequired,
   onClick: PropTypes.func,
 };
+
+// npm run build-storybook
