@@ -50,7 +50,7 @@ const SportsSection = () => {
           /> */}
           <Card2
             imageSrc={"https://iili.io/33etOiX.png"}
-            title={"Keni basketball"}
+            title={"Keni basketball cfsnv"}
             description={"Styles made for your games."}
             buttonText={"Shop Now"}
             color="red"
