@@ -16,7 +16,7 @@ export default {
 export const Default = {
   args: {
     imageSrc: "/images/sample-image.jpg", // Provide a valid image path
-    title: "Sample Card Title",
+    title: "Sample Card Title nnn",
     description: "This is a sample description for the card component.",
     buttonText: "Learn More",
     color: "green",
