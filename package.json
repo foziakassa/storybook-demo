@@ -1,18 +1,17 @@
 {
   "name": "my-storybook-app",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.js"},
-    "peerDependencies": {
+    ".": "./dist/index.js"
+  },
+  "peerDependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -21,8 +20,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepublishOnly": "npm run build:lib",
-    "build:lib": "vite build "
-,
+    "build:lib": "vite build ",
     "chromatic": "npx chromatic --project-token=chpt_687571a33793526"
   },
   "dependencies": {
