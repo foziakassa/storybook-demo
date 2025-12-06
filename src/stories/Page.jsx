@@ -15,8 +15,6 @@ export const Page = () => {
         onLogout={() => setUser(undefined)}
         onCreateAccount={() => setUser({ name: "Jane Doe" })}
       />
-      <h1 className="text-3xl text-red-50">hellshgcdhcgo</h1>
-      <p>kehbfghfbvfhvjbgfvjc</p>
 
       <section className="storybook-page">
         <h2>Pages in Storybook</h2>
